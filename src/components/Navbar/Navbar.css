@@ -1,0 +1,56 @@
+.fashionsavvy{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ecfcfa;
+    padding: 15px 7px;
+}
+
+/* .logo{
+    width:98px;
+    height:98px;
+}
+.p{
+    width:149px;
+    height:42px;
+} */
+
+ul{
+    flex:1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin:5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.discover{
+    position: absolute;
+    height: 136px;
+    left: 10.42%;
+    right: 50%;
+    top: calc(50% - 136px/2 - 2551.5px;
+}
+
+.drivesales{
+    grid:1;
+    list-style: none;
+    display:grid;
+    position: absolute;
+    width: 408px;
+    height: 84px;
+    left: 150px;
+    top: 391px;
+}
+
+drivesales li{
+    margin:5px 20px;
+    display:inline-block;
+    font-size:15px;
+    cursor:pointer;
+}

@@ -1,0 +1,53 @@
+.hero{
+background-color: #ecfcfa;
+display:flex;
+}
+
+.heroleft{
+    width:60%;
+}
+
+.heroleft h1{
+    color:#1b0072;
+    font-size: 30px;
+}
+
+.herospan{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: auto;
+}
+
+.herospan span{
+    font-size: 10px;
+    position:absolute;
+    left:5px;
+}
+
+.dot{
+    height:10px;
+    width:10px;
+    border-radius:50%;
+   background-color:#ecff75;
+   position:absolute;
+   display: grid;
+   grid-template-columns: max-content;
+
+}
+
+.insert{
+    background-color:#ecfcfa;
+    color:transparent;
+    position:absolute;
+    border-color: transparent;
+    left: 11.91%;
+    right: 48.09%;
+    top: 9.39%;
+    bottom: 88.39%;
+}
+
+.heroright{
+    width:393px;
+    height:50px;
+    background-color: #ecfcfa;
+}
